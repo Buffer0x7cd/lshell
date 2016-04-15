@@ -1,3 +1,11 @@
+/* 
+a simple implentation of a shell.
+author: manvendra singh
+date :15/04/2015 
+
+*/
+
+
 #include <sys/wait.h>
 #include <unistd.h>
 #include <stdlib.h>
