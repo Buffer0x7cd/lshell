@@ -6,7 +6,6 @@
 #define LSH_RL_BUFSIZE 1024
 #define LSH_TOK_BUFSIZE 64
 #define LSH_TOK_DELIM " \t\r\n\a"
-#define LSH_RL_BUFSIZE 1024
 // used for reading the line from STDIN
 char *lsh_read_line(void)
 {
@@ -145,7 +144,7 @@ int lsh_cd(char **args)
 int lsh_help(char **args)
 {
   int i;
-  printf("Stephen Brennan's LSH\n");
+  printf("Manvendra Singh's LSH\n");
   printf("Type program names and arguments, and hit enter.\n");
   printf("The following are built in:\n");
 
